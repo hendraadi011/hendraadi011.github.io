@@ -13,13 +13,7 @@ window.addEventListener('scroll',function(){
    
     
 })
-const prdk = ['Pilih Produk' , 'TV', 'AC', 'KULKAS'];
-    var select = document.getElementById("pr");
-    
-    for(let n in prdk){
-        select.innerHTML += `<option value="${prdk[n]}">${prdk[n]}</option>`;
-    }
-   
+
 
 function cetak(){
     let frm = window.document.getElementById("formulir");
